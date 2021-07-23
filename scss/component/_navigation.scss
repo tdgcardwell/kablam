@@ -1,0 +1,41 @@
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &-link {
+    text-align: center;
+    @include round-corners;
+    padding: $breathing-room 0;
+    display: block;
+    width: 100%;
+    @include soft-change;
+
+      &:hover {
+        color: $white;
+        background-color: $color-primary;
+      }
+
+  }
+
+}
+
+@media (min-width: $break) {
+
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-link {
+      flex-basis: 100px;
+    }
+
+  }
+
+}

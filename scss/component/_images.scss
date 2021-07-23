@@ -1,0 +1,27 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+  @include full-center;
+  max-height: 100%;
+}
+
+.img-frame {
+  @include full-center;
+  padding: 13px;
+  border: 1px solid $grey;
+}
+
+.img-logo {
+  @include center-block;
+}
+
+@media (min-width: $break) {
+
+.logo {
+  margin-left: initial;
+  margin-right: initial;
+}
+
+}
