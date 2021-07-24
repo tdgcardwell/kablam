@@ -3,7 +3,8 @@
 /* ============================================= */
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: $text-base;
   box-sizing: border-box;
 }
@@ -29,14 +30,20 @@ a {
 .link {
   color: $color-secondary;
   font-weight: 700;
+
+  &:hover {
+    color: lighten($color-secondary, $lighten-amount);
+  }
+
 }
 
 .blockquote {
-  font-size: 1.5em;
-  @include weight-normal;
-  font-style: italic;
+  font-family: 'Rock salt', sans-serif;
+  color: $kb-lightest;
+  background-color: $kb-dark;
+  font-size: 1.25em;
   margin-left: 20px;
-  padding-left: 20px;
+  padding: 20px;
   border-left: 8px $outline;
   @include round-corners;
 }

@@ -376,46 +376,53 @@ template {
 /* ============================================= */
 /* line 5, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: #292621;
   box-sizing: border-box;
 }
 
-/* line 11, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 12, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 15, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 16, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
 
-/* line 19, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 20, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .headline-primary {
   color: #fd6a02;
   margin-left: 10px;
 }
 
-/* line 24, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 25, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #292621;
 }
 
-/* line 29, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 30, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .link {
   color: #d03985;
   font-weight: 700;
 }
 
 /* line 34, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+.link:hover {
+  color: #df77ab;
+}
+
+/* line 40, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .blockquote {
-  font-size: 1.5em;
-  font-weight: 300;
-  font-style: italic;
+  font-family: 'Rock salt', sans-serif;
+  color: #f6f5f4;
+  background-color: #292621;
+  font-size: 1.25em;
   margin-left: 20px;
-  padding-left: 20px;
+  padding: 20px;
   border-left: 8px solid #fd6a02;
   border-radius: 5px;
 }
