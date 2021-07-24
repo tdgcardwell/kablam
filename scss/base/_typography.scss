@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.text-logo {
+  font-family: 'Inknut Antiqua', serif;
+}
+
 .headline-primary {
   color: $color-primary;
   margin-left: $breathing-room;
@@ -38,12 +42,15 @@ a {
 }
 
 .blockquote {
-  font-family: 'Rock salt', sans-serif;
-  color: $kb-lightest;
-  background-color: $kb-dark;
-  font-size: 1.25em;
+  color: $kb-darkest;
+  font-size: 1.3em;
   margin-left: 20px;
   padding: 20px;
   border-left: 8px $outline;
   @include round-corners;
+
+  em {
+    font-family: 'Rock salt', sans-serif;
+  }
+
 }

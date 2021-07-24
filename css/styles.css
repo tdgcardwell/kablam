@@ -393,38 +393,46 @@ a {
 }
 
 /* line 20, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+.text-logo {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+/* line 24, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .headline-primary {
   color: #fd6a02;
   margin-left: 10px;
 }
 
-/* line 25, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 29, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #292621;
 }
 
-/* line 30, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 34, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .link {
   color: #d03985;
   font-weight: 700;
 }
 
-/* line 34, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 38, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .link:hover {
   color: #df77ab;
 }
 
-/* line 40, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+/* line 44, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .blockquote {
-  font-family: 'Rock salt', sans-serif;
-  color: #f6f5f4;
-  background-color: #292621;
-  font-size: 1.25em;
+  color: #1b1811;
+  font-size: 1.3em;
   margin-left: 20px;
   padding: 20px;
   border-left: 8px solid #fd6a02;
   border-radius: 5px;
+}
+
+/* line 52, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
+.blockquote em {
+  font-family: 'Rock salt', sans-serif;
 }
 
 /* ============================================= */
@@ -707,6 +715,11 @@ a {
   .col-12 {
     flex-basis: 100%;
   }
+}
+
+/* line 151, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_grid.scss */
+.force-full {
+  width: 100%;
 }
 
 /* ============================================= */
