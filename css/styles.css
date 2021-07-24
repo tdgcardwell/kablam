@@ -377,7 +377,7 @@ template {
 /* line 5, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 * {
   font-family: 'Lato', sans-serif;
-  color: #777;
+  color: #292621;
   box-sizing: border-box;
 }
 
@@ -400,7 +400,7 @@ a {
 /* line 24, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
-  color: #777;
+  color: #292621;
 }
 
 /* line 29, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/base/_typography.scss */
@@ -427,7 +427,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: #f6f5f4;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -457,41 +457,51 @@ a {
 }
 
 /* line 36, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+.primary {
+  background-color: #fd6a02;
+}
+
+/* line 39, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+.primary:hover {
+  background-color: #fe974e;
+}
+
+/* line 45, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 39, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 48, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .error:hover {
   background-color: #f1b5b8;
 }
 
-/* line 45, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 54, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 48, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 57, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .info:hover {
   background-color: #bdafd9;
 }
 
-/* line 54, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 63, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 57, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 66, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .success:hover {
   background-color: #9ddfb0;
 }
 
-/* line 63, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 72, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* line 66, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
+/* line 75, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_button.scss */
 .warning:hover {
   background-color: #feb4a2;
 }
@@ -754,7 +764,7 @@ a {
 
 /* line 19, ../../../../../Users/thomascardwell/Main Folder/WEBSITE/Kablam/kablam/scss/component/_navigation.scss */
 .nav-link:hover {
-  color: #fff;
+  color: #f6f5f4;
   background-color: #fd6a02;
 }
 

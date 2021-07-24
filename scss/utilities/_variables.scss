@@ -11,9 +11,9 @@ $kb-darkest: #1b1811;
 $color-primary: #fd6a02;
 $color-secondary: #d03985;
 
-$white: #fff;
+$white: $kb-lightest;
 $grey: #ccc;
-$text-base: #777;
+$text-base: $kb-dark;
 
 $orig-color-primary: #58e1c1;
 $orig-color-secondary: #51ddfc;

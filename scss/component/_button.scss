@@ -33,6 +33,15 @@
 
 }
 
+.primary {
+  background-color: $color-primary;
+
+  &:hover {
+    background-color: lighten($color-primary, $lighten-amount);
+  }
+
+}
+
 .error {
   background-color: $color-error;
 
