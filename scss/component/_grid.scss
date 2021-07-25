@@ -20,6 +20,29 @@
   @include round-corners;
 }
 
+.kb.lightest {
+  background-color:$kb-lightest;
+}
+
+.kb.light {
+  background-color:$kb-light;
+}
+
+.kb.mid {
+  background-color:$kb-mid;
+}
+
+.kb.dark {
+  background-color:$kb-dark;
+  color: $kb-lightest;
+}
+
+.kb.darkest {
+  background-color:$kb-darkest;
+  color: $kb-light;
+}
+
+
 .theme.col-1 {
   background-color: $color-info;
 }
