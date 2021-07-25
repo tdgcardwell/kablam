@@ -18,7 +18,7 @@ a {
 }
 
 .text-logo {
-  font-family: 'Inknut Antiqua', serif;
+  @include rocksalt;
 }
 
 .headline-primary {
@@ -29,6 +29,7 @@ a {
 .headline-secondary {
   @include weight-normal;
   color: $text-base;
+  @include rocksalt;
 }
 
 .link {
@@ -50,7 +51,11 @@ a {
   @include round-corners;
 
   em {
-    font-family: 'Rock salt', sans-serif;
+      @include rocksalt;
   }
 
+}
+
+.rocksalt {
+  @include rocksalt;
 }
