@@ -14,6 +14,6 @@ What content do you actually want here?
 - portfolio?
   - coding
   - art
-  
+
 - scripts?
 -
